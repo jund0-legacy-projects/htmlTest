@@ -1,0 +1,34 @@
+
+.container{
+	width:980px;
+	margin: 20px auto;
+}
+.cf:before,
+.cf:after{
+	content:" ";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+
+.list-test{
+	margin: 0px;
+	padding: 0px;
+}
+.list-test li{
+	width: 33.3%;
+	display:inline-block;
+	float:left;
+	height:200px;
+}
+
+.list-test li div{
+	border: 1px solid;
+	display:block;
+	height:100%;
+}
+.list-test li div a{
+	display:block;
+	height:inherit;
+}
